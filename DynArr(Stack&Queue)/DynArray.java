@@ -10,7 +10,7 @@ public class DynArray
 		this.array  =  new double[1];
 		this.size = 1;
 		this.nextIndex = 0;
-	}  
+	}//First Git Commit
 	public int arraySize()
 	{
 		return this.size;
