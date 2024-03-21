@@ -124,14 +124,9 @@ public class DynArray
 		System.out.print("[");
 		for(int x = 0; x <= this.elements() - 1;++x)
 		{
-			System.out.print(this.at(x));
-			if(x == this.elements() - 1)
+			if(x < this.elements() - 1)
 			{
-				break;
-			}
-			for(int y = 0; y < 1; ++y)
-			{
-				System.out.print("," + " ");
+				System.out.print(this.at(x) + "," + " ");
 			}
 		}
 		System.out.print("]");
