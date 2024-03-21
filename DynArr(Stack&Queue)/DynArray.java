@@ -128,6 +128,7 @@ public class DynArray
 			{
 				System.out.print(this.at(x) + "," + " ");
 			}
+			System.out.print(this.at(x));
 		}
 		System.out.print("]");
 	}
